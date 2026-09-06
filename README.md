@@ -1,2 +1,5 @@
 # SkyDrive
-Anime Speicherverwaltung für Windows, Linux und macOS (Tauri 2)
+
+Anime-inspirierte Speicherverwaltung für Windows, Linux und macOS.
+
+Releases: https://github.com/Pikaswelt/SkyDrive/releases
