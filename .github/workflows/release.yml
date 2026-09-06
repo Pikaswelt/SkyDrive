@@ -67,9 +67,11 @@ jobs:
             Anime-Speicherverwaltung für Windows, Linux und macOS.
 
             ### Installation
-            - **Windows:** `.exe` (NSIS) oder `.msi`
-            - **macOS:** `.dmg` (Apple Silicon + Intel)
-            - **Linux:** `.deb`, `.AppImage`, `.rpm`
+            - **Windows:** `SkyDrive_*_x64-setup.exe` oder `SkyDrive_*_x64_en-US.msi`
+            - **macOS:** `.dmg` für Apple Silicon (aarch64) oder Intel (x86_64)
+            - **Linux:** `.deb`, `.AppImage` oder `.rpm`
+
+            Alle Werte stammen aus dem echten Dateisystem – keine Demo-Daten.
           releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}
